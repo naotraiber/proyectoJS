@@ -1,7 +1,7 @@
 // tipografia
 
-$fuente_ppal: 'Montserrat';
-$fuente_sec: 'Roboto';
+$fuente_ppal: 'Montserrat' , sans-serif;
+$fuente_sec: 'Roboto' , sans-serif;
 
 // croma ppal
 
@@ -16,4 +16,21 @@ $blanco: #FFFFFF;
 
 // font-family: 'Montserrat', sans-serif;
 
+// PARA MOBILE!!!!!
 
+@mixin titulos {
+    font-family: $fuente_ppal;
+    color: $violeta;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+@mixin text {
+    font-family: $fuente_sec;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 23px;
+    }
