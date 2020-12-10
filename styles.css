@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header .linea_violeta {
+  width: 100vw;
+  height: 5px;
+  background-color: #572EE5; }
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  header nav ul li {
+    display: inline; }
+    header nav ul li a {
+      list-style: none;
+      text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */

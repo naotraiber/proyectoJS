@@ -1,0 +1,37 @@
+// estilos mobile
+
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    .linea_violeta{
+        width: 100vw;
+        height: 5px;
+        background-color: $violeta;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            li{
+                display: inline;
+
+                a{
+                    list-style: none;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+}
