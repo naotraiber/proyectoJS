@@ -1,3 +1,97 @@
+
+
 @media screen and (min-width: 768px){
+    header{
+        nav{
+            height: 90px;
+        a{
+            img{
+                width: 59.1px;
+                height: 59.1px;
+            }
+        }
+
+            ul{
+                li{
+                    a{
+                        font-family: $fuente_ppal;
+                        color: $violeta !important; 
+                        font-size: 13px;
+                        letter-spacing: 0;
+                        text-align: center;
+                        padding-right: 41.5px;
+                    }
+
+                    .iconPlus{
+                        display: flex;
+                        width: 54px;
+                        height: 54px;
+                        border: 1px solid $violeta;
+                        border-radius: 100px;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+
+        .headingInspirate{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
     
+            h1{
+                position: relative;
+                margin-top: 76px;
+                font-family: $fuente_ppal;
+                color: $violeta;
+                font-size: 35px;
+                text-align: center;
+                line-height: 50px;
+                max-width: 600px;
+    
+                span{
+                    color: $verde;
+                }
+            }
+    
+            img{
+                width: 399px;
+                height: 190px;
+                margin-top: 31px;
+            }
+
+            // barra de busqueda
+    
+            #boxHeading{
+                width: 551px;
+                height: 50px;
+                border: 1px solid $violeta;
+                border-radius: 60px;
+            }
+    
+            .trending{
+                text-align: center;
+                max-width: 402px;
+                margin-top: 73px;
+    
+                h4{
+                    font-family: $fuente_ppal;
+                    color: $violeta;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+    
+                p{
+                    margin-top: 8px;
+                    font-family: $fuente_ppal;
+                    font-weight: 400;
+                    color: $violeta;
+                    font-size: 16px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
 }

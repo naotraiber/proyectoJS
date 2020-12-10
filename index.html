@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gifos</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
+
 <body>
 
     <!-- nav + header -->
@@ -23,9 +24,10 @@
             <a href="./index.html"><img src="./assets/logo-mobile.svg" alt="logo_mobile"></a>
 
             <ul>
-                <li>Modo Nocturno</li>
-                <a href="./favoritos.html"><li>Favoritos</li></a>
-                <a href="./mis_gifos.html"><li>Mis GIFOS</li></a>
+                <li><a href="./modo_nocturno.html">Modo Nocturno</a></li>
+                <li><a href="./favoritos.html">Favoritos</a></li>
+                <li><a href="./mis_gifos.html">Mis GIFOS</a></li>
+                <li class="iconPlus"><a href="./index.html"><i class="fas fa-plus"></i></a></li>
             </ul>
 
         </nav>
@@ -37,6 +39,9 @@
 
             <img src="./assets/ilustra_header.svg" alt="ilustra_header">
 
+
+            <!-- barra de busqueda -->
+            
             <div id="boxHeading"></div>
 
             <div class="trending">
@@ -79,6 +84,14 @@
 
         <!-- ICONOS -->
 
+        <div class="iconsFooter">
+
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+
+        </div>
+
         <p>© GIFOS 2020 All Rights Reserved</p>
 
         <div class="linea_violeta_final"></div>
@@ -90,3 +103,4 @@
 
 </body>
 </html>
+

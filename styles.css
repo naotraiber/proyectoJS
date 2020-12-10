@@ -142,7 +142,24 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     color: #000000;
-    letter-spacing: 0; }
+    letter-spacing: 0;
+    text-align: center; }
+  footer .iconsFooter {
+    margin: 18px 0px 46px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    footer .iconsFooter a {
+      color: #c2c2c2;
+      padding-left: 19px;
+      width: 20px;
+      height: 20px; }
   footer p {
     margin-bottom: 23px;
     font-family: "Roboto", sans-serif;
@@ -159,5 +176,81 @@ footer {
     width: 100vw;
     height: 5px;
     background-color: #572EE5; }
+
+@media screen and (min-width: 768px) {
+  header nav {
+    height: 90px; }
+    header nav a img {
+      width: 59.1px;
+      height: 59.1px; }
+    header nav ul li a {
+      font-family: "Montserrat", sans-serif;
+      color: #572EE5 !important;
+      font-size: 13px;
+      letter-spacing: 0;
+      text-align: center;
+      padding-right: 41.5px; }
+    header nav ul li .iconPlus {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 54px;
+      height: 54px;
+      border: 1px solid #572EE5;
+      border-radius: 100px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  header .headingInspirate {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    header .headingInspirate h1 {
+      position: relative;
+      margin-top: 76px;
+      font-family: "Montserrat", sans-serif;
+      color: #572EE5;
+      font-size: 35px;
+      text-align: center;
+      line-height: 50px;
+      max-width: 600px; }
+      header .headingInspirate h1 span {
+        color: #50E3C2; }
+    header .headingInspirate img {
+      width: 399px;
+      height: 190px;
+      margin-top: 31px; }
+    header .headingInspirate #boxHeading {
+      width: 551px;
+      height: 50px;
+      border: 1px solid #572EE5;
+      border-radius: 60px; }
+    header .headingInspirate .trending {
+      text-align: center;
+      max-width: 402px;
+      margin-top: 73px; }
+      header .headingInspirate .trending h4 {
+        font-family: "Montserrat", sans-serif;
+        color: #572EE5;
+        font-weight: bold;
+        font-size: 18px; }
+      header .headingInspirate .trending p {
+        margin-top: 8px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        color: #572EE5;
+        font-size: 16px;
+        line-height: 25px; } }
 
 /*# sourceMappingURL=styles.css.map */
