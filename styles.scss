@@ -9,6 +9,7 @@
 }
 
 header{
+    box-sizing: border-box;
 
     .linea_violeta{
         width: 100vw;
@@ -37,9 +38,10 @@ header{
                     color: black;
                 }
             }
-            // .iconPlus{
-            //     display: none;
-            // }
+
+            .contenedorPlusIcon{
+                display: none;
+            }
         }
 
     }
@@ -143,10 +145,16 @@ header{
         display: flex;
         flex-direction: row;
 
+        img{
+            width: 243px;
+            height: 187px;
+        }
+
     }
 }
 
 footer{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,14 +190,15 @@ footer{
         color: #000000;
         letter-spacing: 0;
     }
+}
 
-    .linea_violeta_final{
-        display: flex;
-        justify-content: end;
-        width: 100vw;
-        height: 5px;
-        background-color: $violeta;
-    }
+
+.linea_violeta_final{
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    height: 5px;
+    background-color: $violeta;
 }
 
 

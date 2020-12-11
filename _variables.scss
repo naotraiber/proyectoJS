@@ -34,3 +34,22 @@ $blanco: #FFFFFF;
     text-align: center;
     line-height: 23px;
     }
+
+// PARA DESKTOP!!!!!
+
+@mixin titulosDesktop {
+    font-family: $fuente_ppal;
+    color: $violeta;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+}
+
+@mixin textDesktop {
+    font-family: $fuente_sec;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    line-height: 23px;
+    }
