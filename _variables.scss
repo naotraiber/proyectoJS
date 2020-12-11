@@ -18,6 +18,8 @@ $blanco: #FFFFFF;
 
 // font-family: 'Montserrat', sans-serif;
 
+// ________________________________________
+
 // PARA MOBILE!!!!!
 
 @mixin titulos {
@@ -37,6 +39,20 @@ $blanco: #FFFFFF;
     line-height: 23px;
     }
 
+@mixin boton {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid $violeta;
+    font-family: $fuente_ppal;
+    font-weight: bold;
+    color: $violeta;
+    font-size: 13px;
+    letter-spacing: 0;
+    text-align: center; 
+}
+
+// ________________________________________
+
 // PARA DESKTOP!!!!!
 
 @mixin titulosDesktop {
@@ -55,3 +71,18 @@ $blanco: #FFFFFF;
     text-align: center;
     line-height: 23px;
     }
+
+@mixin botonDesktop {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid $violeta;
+    font-family: $fuente_ppal;
+    font-family: $fuente_ppal;
+    font-size: 13px;
+    font-weight: bold;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+// ________________________________________

@@ -1,182 +1,52 @@
-* {
-  margin: 0;
-  padding: 0; }
+/*
+Error: File to import not found or unreadable: media_query_fav_gifos.
+       Load path: /Users/naomitraiber/Desktop/final-JS
+        on line 106 of /Users/naomitraiber/Desktop/final-JS/styles_mis_gifos.scss
 
-header {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-  header .linea_violeta {
-    width: 100vw;
-    height: 5px;
-    background-color: #572EE5; }
-  header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 95px; }
-    header nav ul li {
-      display: inline;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold; }
-      header nav ul li a {
-        list-style: none;
-        text-decoration: none;
-        color: black; }
-    header nav ul .contenedorPlusIcon {
-      display: none; }
-  header .headingInspirate {
-    width: 100vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    header .headingInspirate h1 {
-      position: relative;
-      margin-top: 7px;
-      font-family: "Montserrat", sans-serif;
-      color: #572EE5;
-      font-size: 25px;
-      text-align: center;
-      line-height: 33px;
-      max-width: 286px; }
-      header .headingInspirate h1 span {
-        color: #50E3C2; }
-    header .headingInspirate img {
-      width: 273px;
-      height: 130px;
-      margin-top: 31px; }
-    header .headingInspirate #boxHeading {
-      width: 334px;
-      height: 50px;
-      border: 1px solid #572EE5;
-      border-radius: 60px; }
-    header .headingInspirate .trending {
-      text-align: center;
-      max-width: 225px;
-      margin-top: 31px; }
-      header .headingInspirate .trending h4 {
-        font-family: "Montserrat", sans-serif;
-        color: #572EE5;
-        font-weight: bold;
-        font-size: 1em; }
-      header .headingInspirate .trending p {
-        margin-top: 8px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 400;
-        color: #572EE5;
-        font-size: 14px;
-        line-height: 25px; }
+101:         }
+102:     }
+103: 
+104: }
+105: 
+106: @import "media_query_fav_gifos";
 
-@media screen and (min-width: 768px) {
-  header nav {
-    height: 90px; }
-    header nav a img {
-      width: 59.1px;
-      height: 59.1px; }
-    header nav ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      header nav ul li a {
-        font-family: "Montserrat", sans-serif;
-        color: #572EE5;
-        font-size: 13px;
-        letter-spacing: 0;
-        text-align: center;
-        padding-right: 41.5px; }
-      header nav ul li .favoritos_nav {
-        color: #9CAFC3; }
-      header nav ul .contenedorPlusIcon {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        width: 54px;
-        height: 54px;
-        border: 1px solid #572EE5;
-        border-radius: 100px; }
-        header nav ul .contenedorPlusIcon .iconPlus {
-          -ms-flex-item-align: center;
-              align-self: center;
-          color: #572EE5; }
-          header nav ul .contenedorPlusIcon .iconPlus a {
-            padding-right: 0px; }
-  header .headingInspirate {
-    width: 100vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    header .headingInspirate h1 {
-      position: relative;
-      margin-top: 76px;
-      font-family: "Montserrat", sans-serif;
-      color: #572EE5;
-      font-size: 35px;
-      text-align: center;
-      line-height: 50px;
-      max-width: 600px; }
-      header .headingInspirate h1 span {
-        color: #50E3C2; }
-    header .headingInspirate img {
-      width: 399px;
-      height: 190px;
-      margin-top: 31px; }
-    header .headingInspirate #boxHeading {
-      width: 551px;
-      height: 50px;
-      border: 1px solid #572EE5;
-      border-radius: 60px; }
-    header .headingInspirate .trending {
-      text-align: center;
-      max-width: 402px;
-      margin-top: 73px; }
-      header .headingInspirate .trending h4 {
-        font-family: "Montserrat", sans-serif;
-        color: #572EE5;
-        font-weight: bold;
-        font-size: 18px; }
-      header .headingInspirate .trending p {
-        margin-top: 8px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 400;
-        color: #572EE5;
-        font-size: 16px;
-        line-height: 25px; } }
-
-/*# sourceMappingURL=styles_mis_gifos.css.map */
+Backtrace:
+/Users/naomitraiber/Desktop/final-JS/styles_mis_gifos.scss:106
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: media_query_fav_gifos.\A        Load path: /Users/naomitraiber/Desktop/final-JS\A         on line 106 of /Users/naomitraiber/Desktop/final-JS/styles_mis_gifos.scss\A \A 101:         }\A 102:     }\A 103: \A 104: }\A 105: \A 106: @import \"media_query_fav_gifos\";"; }

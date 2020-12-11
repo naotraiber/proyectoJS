@@ -1,0 +1,290 @@
+@import 'variables';
+
+// FAVORITOS MEDIA QUERY
+
+@media screen and (min-width: 768px){
+    .landing_favoritos{
+        nav{
+            height: 90px;
+        a{
+            img{
+                width: 59.1px;
+                height: 59.1px;
+            }
+        }
+
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    a{
+                        font-family: $fuente_ppal;
+                        color: $violeta; 
+                        font-size: 13px;
+                        letter-spacing: 0;
+                        text-align: center;
+                        padding-right: 41.5px;
+                    }
+
+                    .favoritos_nav{
+                        color: $colorGrey;
+                    }
+
+                    .misGifos_nav{
+                        color: $colorGrey;
+                    }
+                }
+                .contenedorPlusIcon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 54px;
+                    height: 54px;
+                    border: 1px solid $violeta;
+                    border-radius: 100px;
+
+                    .iconPlus{
+                        align-self: center;
+                        color: $violeta;
+
+                        a{
+                            padding-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .headingFavoritos{
+            margin-top: 11px;
+            h1{
+                @include titulosDesktop;
+            }
+        }
+    }
+
+    // trending GIFOS
+
+    .trendingComunidad{
+        margin-top: 95px;
+        width: 100vw;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F3F5F8;
+
+        h1{
+            @include titulosDesktop;
+        }
+
+        p{
+            margin: 12px 0 40px 0;
+            @include textDesktop;
+            max-width: 500px;
+        }
+
+        #slideTrendingComunidad{
+            margin-top: 32px;
+            display: flex;
+            flex-direction: row;
+
+            img{
+                width: 357px;
+                height: 275px;
+                padding-right: 29px;
+            }
+
+        }
+    }
+
+
+    @media screen and (min-width: 768px){
+
+    footer{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 49.5px 0 51.4px 0;
+
+        .partOne_footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .compartirFooter{
+                margin-top: 0;
+                font-family: $fuente_sec;
+                font-size: 15px;
+                color: #000000;
+                letter-spacing: 0;
+                text-align: center;
+
+                }
+            .iconsFooter{
+                    a{
+                        margin-left: 5px;
+                        padding-top: 10px;
+                        color: rgb(194, 194, 194);
+                        padding-left: 19px;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    .twitterIcon{
+                        color: $violeta;
+                    }
+                }
+        }
+
+        p{
+            margin-top: 0;
+            font-family: $fuente_sec;
+            font-size: 14px;
+            color: #000000;
+            letter-spacing: 0;
+        }
+
+    }
+
+    .linea_violeta_final{
+        display: flex;
+        justify-content: end;
+        width: 100vw;
+        height: 5px;
+        background-color: $violeta;
+    }
+}
+}   
+
+
+
+// MAS MEDIA QUERY
+
+@media screen and (min-width: 768px){
+    .landing_mas{
+        nav{
+            height: 90px;
+        a{
+            img{
+                width: 59.1px;
+                height: 59.1px;
+            }
+        }
+
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    a{
+                        font-family: $fuente_ppal;
+                        color: $violeta; 
+                        font-size: 13px;
+                        letter-spacing: 0;
+                        text-align: center;
+                        padding-right: 41.5px;
+                    }
+                }
+                .contenedorPlusIcon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 54px;
+                    height: 54px;
+                    border: 1px solid $colorGrey;
+                    background-color: $colorGrey;
+                    border-radius: 100px;
+
+                    .iconPlus{
+                        align-self: center;
+
+                        i{
+                            color: white;
+                        }
+
+                        a{
+                            padding-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mas_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .box{
+            width: 688px;
+            height: 390px;
+            border: 1px solid $violeta;
+        }
+
+        .line_box{
+            width: 795.9px;
+            height: 6.9;
+            background-color: $violeta;
+        }
+
+        button{
+
+            height: 50px;
+            width: 127px;
+            @include boton;
+        }
+    }
+
+    footer{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        .compartirFooter{
+            margin-top: 47px;
+            font-family: $fuente_sec;
+            font-size: 15px;
+            color: #000000;
+            letter-spacing: 0;
+            text-align: center;
+        }
+    
+        .iconsFooter{
+            margin: 18px 0px 46px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            a{
+                color: $colorGrey;
+                padding-left: 19px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    
+        p{
+            margin-bottom: 23px;
+            font-family: $fuente_sec;
+            font-size: 14px;
+            color: #000000;
+            letter-spacing: 0;
+        }
+    }
+    
+    
+    .linea_violeta_final{
+        display: flex;
+        justify-content: end;
+        width: 100vw;
+        height: 5px;
+        background-color: $violeta;
+    }
+}
+
+
